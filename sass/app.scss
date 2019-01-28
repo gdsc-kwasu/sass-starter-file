@@ -1,0 +1,9 @@
+/*
+* Import the variables.
+*/
+@import "./variables";
+
+body {
+	background-color: $primary;
+	color: #fff;
+}

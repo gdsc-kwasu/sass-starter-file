@@ -1,0 +1,23 @@
+{
+  "name": "sass-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.14",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.16.1",
+    "sass-loader": "^7.1.0"
+  }
+}
